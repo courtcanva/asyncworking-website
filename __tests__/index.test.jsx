@@ -1,13 +1,13 @@
 import { render, screen } from "@testing-library/react";
-import Home from "../pages/index";
+import Hero from "../components/Hero";
 import "@testing-library/jest-dom";
 
-describe("Home", () => {
+describe("Hero", () => {
   it("renders a heading", () => {
-    render(<Home />);
+    render(<Hero />);
 
     const heading = screen.getByRole("heading", {
-      name: /landing page/i,
+      name: /AsyncWorking/i,
     });
 
     expect(heading).toBeInTheDocument();
