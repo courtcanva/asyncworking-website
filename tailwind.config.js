@@ -138,6 +138,9 @@ module.exports = {
           to: { opacity: "0" },
         },
       },
+      boxShadow: {
+        review: "0 5px 15px rgb(0 0 0 / 10%)",
+      },
       animation: {
         template1: "template 0.25s ease-in-out backwards",
         template2: "template 0.25s ease-in-out 0.25s backwards",
