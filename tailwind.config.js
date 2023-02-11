@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-poppins)", ...defaultTheme.fontFamily.sans],
+        sans: ["var(--font-quickSand)", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         white: "#FFFFFF",
