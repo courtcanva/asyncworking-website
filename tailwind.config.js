@@ -35,6 +35,8 @@ module.exports = {
           400: "#0083D1",
           500: "#009EFD",
         },
+        light: "#9E9CB9",
+        title: "#3B3950",
       },
       opacity: {
         85: ".85",
