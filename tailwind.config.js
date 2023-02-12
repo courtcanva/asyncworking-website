@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-poppins)", ...defaultTheme.fontFamily.sans],
+        sans: ["var(--font-quickSand)", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         white: "#FFFFFF",
@@ -35,6 +35,8 @@ module.exports = {
           400: "#0083D1",
           500: "#009EFD",
         },
+        light: "#9E9CB9",
+        title: "#3B3950",
       },
       opacity: {
         85: ".85",
@@ -137,6 +139,9 @@ module.exports = {
           from: { opacity: "0.85" },
           to: { opacity: "0" },
         },
+      },
+      boxShadow: {
+        review: "0 5px 15px rgb(0 0 0 / 10%)",
       },
       animation: {
         template1: "template 0.25s ease-in-out backwards",
