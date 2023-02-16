@@ -35,6 +35,10 @@ module.exports = {
           400: "#0083D1",
           500: "#009EFD",
         },
+        main: {
+          100: "#5a4fdc",
+          200: "#bdbad9",
+        },
       },
       opacity: {
         85: ".85",

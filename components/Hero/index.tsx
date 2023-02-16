@@ -18,7 +18,7 @@ const Hero = () => {
             With an experienced team that pursues IT excellence, we are able to offer a diverse
             range of IT services and products with high quality.
           </p>
-          <button className="bg-[#5a4fdc] text-white text-[15px] px-6 py-3 cursor-pointer rounded-md hover:shadow-lg hover:-translate-y-1 transition duration-700 ease-in-out ">
+          <button className="bg-main-100 text-white text-[15px] px-6 py-3 cursor-pointer rounded-md hover:shadow-lg hover:-translate-y-1 transition duration-700 ease-in-out ">
             Contact Us
           </button>
         </div>

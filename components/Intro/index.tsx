@@ -1,12 +1,12 @@
 import React from "react";
-import CardContainer from "./cardContainer";
+import CardContainer from "./CardContainer";
+import TitleContainer from "./TitleContainer";
 
 const Intro = () => {
   return (
-    <section>
-      <div>
-        <CardContainer />
-      </div>
+    <section className="flex flex-col justify-center items-center lg:flex-row flex-wrap">
+      <TitleContainer />
+      <CardContainer />
     </section>
   );
 };
