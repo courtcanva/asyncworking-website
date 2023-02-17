@@ -3,7 +3,6 @@ import Footer from "./footer";
 import Header from "./header";
 import BackgroundWrapper from "./backgroundWrapper";
 
-
 interface Props {
   children: ReactNode;
 }
