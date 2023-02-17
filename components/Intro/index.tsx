@@ -4,7 +4,7 @@ import TitleContainer from "./TitleContainer";
 
 const Intro = () => {
   return (
-    <section className="flex flex-col justify-center items-center xl:flex-row flex-wrap">
+    <section className="flex flex-col justify-center items-center md:flex-row flex-wrap my-40">
       <TitleContainer />
       <CardContainer />
     </section>
