@@ -12,7 +12,7 @@ import {
 
 const Contact = () => {
   return (
-    <div className="flex flex-col justify-center items-center py-20">
+    <div className="flex flex-col justify-center items-center py-20 lg:px-16">
       <h3 className="text-[36px] md:text-[52px] text-[#3b3950] font-medium mb-4 drop-shadow-lg w-[100%] text-center">
         Contact Us
       </h3>

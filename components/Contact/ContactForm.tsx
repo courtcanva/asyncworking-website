@@ -1,9 +1,7 @@
 import React from "react";
 import { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import emailConfig from "./emailConfig";
 
 const ContactForm = () => {
   const form = useRef();
@@ -19,22 +17,11 @@ const ContactForm = () => {
       setMissingInfo(" your Message");
     } else {
       setMissingInfo("");
-      emailjs
-        .sendForm(
-          emailConfig.serviceId,
-          emailConfig.templateId,
-          form.current,
-          emailConfig.publicKey
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-            e.target.reset();
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
+      console.log(
+        `Name: ${form.current[0].value}; Email: ${form.current[1].value}; Message: ${form.current[2].value}`
+      );
+      //send email to be added.
+      e.target.reset();
     }
   };
 
