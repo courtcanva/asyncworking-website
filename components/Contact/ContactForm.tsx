@@ -31,7 +31,7 @@ const ContactForm = () => {
       {missingInfo && <p className="block m-1 bg-amber-100 p-2">*Please enter{missingInfo}*</p>}
       <div className="form-row w-[100%] md:flex justify-items">
         <div className="md:w-[50%] p-1">
-          <label className="text-[#3b3950] block w-[100%]">Name*</label>
+          <label className="block w-[100%]">Name*</label>
           <input
             type="text"
             name="user_name"
@@ -40,7 +40,7 @@ const ContactForm = () => {
           />
         </div>
         <div className="md:w-[50%] p-1">
-          <label className="text-[#3b3950] block">Email*</label>
+          <label className="block">Email*</label>
           <input
             type="email"
             name="user_email"
@@ -50,7 +50,7 @@ const ContactForm = () => {
         </div>
       </div>
       <div className="form-row w-[100%] p-1">
-        <label className="text-[#3b3950] block w-[100%]">Message*</label>
+        <label className="block w-[100%]">Message*</label>
         <textarea
           name="message"
           className="p-2 mb-2 h-20 w-[100%] border focus:outline-0"
