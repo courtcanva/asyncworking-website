@@ -17,9 +17,6 @@ const ContactForm = () => {
       setMissingInfo(" your Message");
     } else {
       setMissingInfo("");
-      console.log(
-        `Name: ${form.current[0].value}; Email: ${form.current[1].value}; Message: ${form.current[2].value}`
-      );
       //send email to be added.
       e.target.reset();
     }
