@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import Image from "next/image";
 
 interface Props {
   children: ReactNode;
@@ -8,7 +7,7 @@ interface Props {
 const BackgroundWrapper = ({ children }: Props) => {
   return (
     <div>
-      <div className="min-w-[390px] max-w-7xl mx-auto overflow-hidden relative">
+      <div className="flex justify-between items-center px-8 md:px-12 py-4 max-w-7xl m-auto">
         <main>{children}</main>
       </div>
     </div>
