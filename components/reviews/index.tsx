@@ -1,6 +1,6 @@
 import React from "react";
 import ReviewCard from "./ReviewCard";
-import { reviewCardDetails } from "./ReviewDetails";
+import { reviewCardDetails } from "./ReviewDetails.data";
 
 const Reviews = () => {
   return (

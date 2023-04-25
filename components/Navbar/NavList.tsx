@@ -5,22 +5,16 @@ const NavList = () => {
         <a href="#">Home</a>
       </li>
       <li className="cursor-pointer hover:text-main-300 duration-500 ml-10 mr-6 py-1.5">
-        <a>Features</a>
+        <a href="#">Features</a>
       </li>
       <li className="cursor-pointer hover:text-main-300 duration-500 ml-10 mr-6 py-1.5">
-        <a>Pricing</a>
+        <a href="#">Pricing</a>
       </li>
       <li className="cursor-pointer hover:text-main-300 duration-500 ml-10 mr-6 py-1.5">
-        <a>Blog</a>
+        <a href="#">Blog</a>
       </li>
       <li className="cursor-pointer hover:text-main-300 duration-500 ml-10 mr-6 py-1.5">
-        <a>Contact</a>
-      </li>
-      <li className="cursor-pointer hover:text-main-300 duration-500 ml-10 mr-6 py-1.5">
-        <a>Login</a>
-      </li>
-      <li className="cursor-pointer hover:text-main-300 duration-500 ml-10 mr-6 py-1.5">
-        <a>Register</a>
+        <a href="#contact">Contact</a>
       </li>
     </ul>
   );

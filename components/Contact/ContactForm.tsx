@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, useRef } from "react";
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaPaperPlane } from "react-icons/fa";
 
 const ContactForm = () => {
   const form = useRef();
@@ -61,9 +60,9 @@ const ContactForm = () => {
         type="submit"
         name="send"
         value="Send Message"
-        className="bg-[#5a4fdc] text-white text-[15px] px-6 py-3 cursor-pointer rounded-md hover:shadow-lg hover:-translate-y-1 transition duration-700 ease-in-out "
+        className="bg-[#5a4fdc] text-white text-[15px] px-6 py-3 cursor-pointer rounded-md hover:shadow-lg hover:-translate-y-1 transition duration-700 ease-in-out flex items-center gap-2"
       >
-        Send Message <FontAwesomeIcon icon={faPaperPlane} className="ml-1.5" />
+        Send Message <FaPaperPlane className="ml-1.5" />
       </button>
     </form>
   );
