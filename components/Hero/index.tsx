@@ -5,8 +5,8 @@ import heroImg from "../../public/hero-1-img.png";
 const Hero = () => {
   return (
     <section className="bg-[url('/hero-1-bg-img.png')]">
-      <div className="flex flex-col md:flex-row lg:flex-row items-center min-w-[390px] max-w-6xl mx-auto my-6">
-        <div className="w-4/5 md:w-2/5 mr-4 md:mr-20 ml-4">
+      <div className="flex flex-col md:flex-row items-center gap-8">
+        <div className="grow-2">
           <h1 className="text-[36px] md:text-[52px] text-[#3b3950] font-medium mb-6  drop-shadow-lg">
             AsyncWorking
           </h1>
@@ -22,8 +22,8 @@ const Hero = () => {
             Contact Us
           </button>
         </div>
-        <div className=" w-4/5 md:w-1/2 mt-24">
-          <Image alt="Hero Image" className="mx-auto" src={heroImg} width={546} height={682} />
+        <div className="grow-1">
+          <Image alt="Hero Image" className="mx-auto" src={heroImg} />
         </div>
       </div>
     </section>
