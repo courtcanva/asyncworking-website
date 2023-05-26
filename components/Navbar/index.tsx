@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useState } from "react";
 import NavList from "./NavList";
 import { FiMenu } from "react-icons/fi";
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 

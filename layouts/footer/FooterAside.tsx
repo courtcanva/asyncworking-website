@@ -3,8 +3,12 @@ import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
 const FooterAside = () => {
   return (
     <aside className="text-white  p-3">
-      <div>
-        <Image src="/logoWithTexts.png" alt="async working logo" width={200} height={100} />
+      <div className="flex gap-3">
+        <Image src="/cropped-logo.png" alt="async working logo" width={30} height={30} />
+        <div className="text-lg">
+          <span className="font-bold">Async</span>
+          <span className="font-medium">Working</span>
+        </div>
       </div>
       <p className="my-6 opacity-50">
         Cras ultricies mi eu turpis sit hendrerit fringilla vestibulum ante ipsum primis in faucibus

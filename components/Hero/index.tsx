@@ -4,7 +4,7 @@ import Image from "next/image";
 import heroImg from "../../public/hero-1-img.png";
 const Hero = () => {
   return (
-    <section className="bg-[url('/hero-1-bg-img.png')]">
+    <section className="bg-[url('/hero-1-bg-img.png')]" id="hero">
       <div className="flex flex-col md:flex-row items-center gap-8">
         <div className="grow-2">
           <h1 className="text-[36px] md:text-[52px] text-[#3b3950] font-medium mb-6  drop-shadow-lg">
